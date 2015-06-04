@@ -14,8 +14,6 @@
 
 # Qualcomm blob(s) necessary for Hammerhead hardware
 PRODUCT_COPY_FILES := \
-	vendor/qcom/hammerhead/proprietary/TimeService.apk:system/app/TimeService.apk:qcom\
-	vendor/qcom/hammerhead/proprietary/shutdownlistener.apk:system/app/shutdownlistener.apk:qcom\
     vendor/qcom/hammerhead/proprietary/bridgemgrd:system/bin/bridgemgrd:qcom \
     vendor/qcom/hammerhead/proprietary/diag_klog:system/bin/diag_klog:qcom \
     vendor/qcom/hammerhead/proprietary/diag_mdlog:system/bin/diag_mdlog:qcom \
@@ -128,7 +126,8 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/hammerhead/proprietary/libizat_core.so:system/vendor/lib/libizat_core.so:qcom \
     vendor/qcom/hammerhead/proprietary/libjpegdhw.so:system/vendor/lib/libjpegdhw.so:qcom \
     vendor/qcom/hammerhead/proprietary/libjpegehw.so:system/vendor/lib/libjpegehw.so:qcom \
-    vendor/qcom/hammerhead/proprietary/libllvm-a3xx.so:system/vendor/lib/libllvm-a3xx.so:qcom \
+    vendor/qcom/hammerhead/proprietary/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so:qcom \
+    vendor/qcom/hammerhead/proprietary/libbccQTI.so:system/vendor/lib/libbccQTI.so:qcom \
     vendor/qcom/hammerhead/proprietary/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so:qcom \
     vendor/qcom/hammerhead/proprietary/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so:qcom \
     vendor/qcom/hammerhead/proprietary/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so:qcom \
