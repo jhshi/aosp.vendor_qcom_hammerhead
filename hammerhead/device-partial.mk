@@ -172,4 +172,5 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/hammerhead/proprietary/libTimeService.so:system/vendor/lib/libTimeService.so:qcom \
     vendor/qcom/hammerhead/proprietary/librpmb.so:system/lib/librpmb.so:qcom \
     vendor/qcom/hammerhead/proprietary/libssd.so:system/lib/libssd.so:qcom \
+    vendor/qcom/hammerhead/proprietary/libmmcamera_interface.so:system/lib/libmmcamera_interface.so:qcom \
 
